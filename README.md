@@ -1,7 +1,25 @@
 # ANN-Classification-Churn
 
+
+## Dataset
+You can access the dataset [here on Kaggle](https://www.kaggle.com/datasets/aakash50897/churn-modellingcsv).
+
+## Steps to Run the Code
+
+### 1. Data Preprocessing and Model Training
+- Open and run all cells in `experiments.ipynb`.
+- This step will create the necessary encoder and scaler files.
+
+### 2. Model Evaluation
+- Open and run all cells in `prediction.ipynb`.
+- This will evaluate the model's performance.
+
+### 3. Launch the Web Application app.py
+- Run the following command in your command prompt to start the app:
+  streamlit run app.py
 # Customer Churn Prediction Using Artificial Neural Networks: 
 ## A Machine Learning Approach for Banking Customer Retention
+
 
 ### Abstract
 This study presents a machine learning solution for predicting customer churn in the banking sector using Artificial Neural Networks (ANN). The model analyzes customer financial, behavioral, and demographic data to identify clients at risk of leaving the bank. Using a comprehensive dataset of customer information, we developed a predictive model that achieved significant accuracy in identifying potential churners. The implementation includes a user-friendly web interface built with Streamlit, making it accessible for bank personnel to utilize the model for real-time predictions.
@@ -86,13 +104,3 @@ The model is deployed via a Streamlit web application that allows:
 - Expansion of the feature set to include transaction patterns
 - Implementation of explainable AI techniques for better interpretation
 
-### 6. References
-1. Kumar, A., et al. (2019). "Machine Learning Algorithms for Customer Churn Prediction: A Banking Industry Perspective." International Journal of Data Science and Analytics.
-
-2. Zoric, M. (2016). "Predicting Customer Churn in Banking Industry using Neural Networks." Interdisciplinary Description of Complex Systems.
-
-3. TensorFlow Documentation (2024). "Neural Network Implementation Guidelines."
-
-4. Streamlit Documentation (2024). "Building Data Applications."
-
-Note: The report has been structured based on the available code and common practices in machine learning projects. Specific metrics and results should be updated based on the actual model performance from the experiments.
