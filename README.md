@@ -12,15 +12,7 @@ Features
  Shows detailed input data alongside prediction output.
  Pre-trained model, encoders, and scaler for real-time prediction.
 
-Project Structure
-├── app.py                      # Main Streamlit app
-├── Churn_Modelling.csv         # Dataset used for training (optional)
-├── experiments.ipynb           # Jupyter notebook for model training/testing
-├── model.h5                    # Pre-trained Keras model
-├── label_encoder_gender.pkl    # Pickled LabelEncoder for gender
-├── onehot_encoder_geo.pkl      # Pickled OneHotEncoder for geography
-├── scaler.pkl                  # Pickled StandardScaler
-├── requirements.txt            # Project dependencies
+
 
 
 Installation
